@@ -23,3 +23,8 @@ Mammal = Dog()
 # and method through objects
 print(Mammal.attr1)
 Mammal.fun()
+
+
+# using with statement
+with open('file_path.doc', 'w') as file:
+    file.write('hello world !')
